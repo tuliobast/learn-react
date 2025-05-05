@@ -1,10 +1,13 @@
 # React + Vite
 
 to run this project clone the repository and run the command bellow
+
 `
 pnpm i
 `
+
 next
+
 `
 pnpm run dev
 `
