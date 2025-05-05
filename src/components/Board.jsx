@@ -1,8 +1,6 @@
 import Square from './Square';
 import calculateWinner from '../assets/lines'; 
 
-
-
 export default function Board({ xIsNext, squares, onPlay }) {
 
   // Handles clicks on a square

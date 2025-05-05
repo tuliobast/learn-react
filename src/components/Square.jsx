@@ -1,4 +1,3 @@
-
 export default function Square({ value, onSquareClick }) { // Corrected component name and prop name
   return (
     // Button representing a square

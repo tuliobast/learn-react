@@ -28,8 +28,7 @@ export default function App() {
     status = "Ganador: " + winner; // Display "Winner" in Spanish
   } else if (currentMove === 9) { // Check for a draw
      status = "¡Empate!"; // Display "Draw" in Spanish
-  }
-   else {
+  } else {
     status = "Siguiente jugador: " + (xIsNext ? "X" : "O"); // Display "Next player" in Spanish
   }
 
@@ -56,7 +55,6 @@ export default function App() {
         text={"Reiniciar Juego"} 
         onButtonClick={() => resetGame()} 
       />
-        {/* <on> */}
     </div>
   );
 }
